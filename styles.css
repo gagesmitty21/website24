@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* Global styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for the entire page */
+    color: #ffffff; /* Light text for better readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; /* Center aligns all text */
+    transition: background-color 0.3s; /* Smooth transition for background color changes */
+    background-image: url('geometric-pattern.png'); /* Geometric pattern background */
+    background-size: cover; /* Cover the entire background */
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header styles */
+header {
+    background-color: #1f1f1f; /* Slightly lighter header for contrast */
+    padding: 20px 0;
+    transition: background-color 0.3s; /* Transition effect for header */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #4DD0E1; /* Teal color for a pop of color */
+    transition: color 0.3s; /* Transition effect for links */
+}
+
+nav ul li a:hover {
+    color: #FFEB3B; /* Yellow color on hover for contrast */
+    text-decoration: none; /* No underline on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 40px 0; /* Padding for main content */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px; /* Spacing between sections */
+}
+
+/* Footer styles */
+footer {
+    background-color: #263238; /* Darker shade for header and footer */
+    color: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s; /* Transition effect for footer */
+}
